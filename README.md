@@ -14,7 +14,7 @@ Take it slow and work together. Follow the model specs. It's possible to complet
 
 ## Where to Begin
 
-Work through this lab slowly. For every class you create, you should create a migration file to make a table for that class. Run rake `db:migrate RAILS_ENV=test` to migrate your DB to get the tests to work, and if you make mistakes, run rake `db:migrate:reset RAILS_ENV=test` to start over. You can always open `test.sqlite3`  in DB Browser to look at your test database.
+Work through this lab slowly. For every class you create, you should create a migration file to make a table for that class. Run `rake db:migrate RAILS_ENV=test` to migrate your DB to get the tests to work, and if you make mistakes, run `rake db:migrate:reset RAILS_ENV=test` to start over. You can always open `test.sqlite3`  in DB Browser to look at your test database.
 
 In addition, think about the relations between all of the objects. Let's work through
 Users and Listings, and from there you should know some cool ActiveRecord tricks
